@@ -4,7 +4,7 @@
    "port": 3306,
    "username": "www-data",
    "password": "",
-   "database": "campodecaballos",
+   "database": "ccaballos",
    "synchronize": true,
    "logging": false,
    "entities": [

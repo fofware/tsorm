@@ -18,7 +18,7 @@ export class User {
     lastName: string;
 
     @Column("datetime")
-    fechaNac: string;
+    fechaNac: Date;
 
     @Column()
     direccion: string;
@@ -43,9 +43,6 @@ export class User {
 
     @Column()
     google: string;
-
-    @Column("json")
-    tokens: any;
 
     @Column()
     passwd: string;
